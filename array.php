@@ -11,15 +11,15 @@ $student =array(
      echo $student[$i],"\n";
  }
  var_dump($student);
-//echo ($name);
+echo ($name);
 
 // if it is in string format then it will be like this.....
  $name1= explode(', ', 'emon, limon, shaib');
  $name1String=join(', ',$name1);
 
 
- //echo $name1String; 
-// echo count($name1);
+ echo $name1String; 
+ echo count($name1);
 
 
 
