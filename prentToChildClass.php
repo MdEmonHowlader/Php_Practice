@@ -13,7 +13,7 @@ class PrentClass{
 class ChiildClass extends PrentClass{
     function emon(){
         parent:: emon();
-        echo "Hi Emon\n";
+        echo "Hi Orni\n";
     }
 }
 $eee= new ChiildClass("He is bad Student.... ");
