@@ -4,7 +4,6 @@ class PrentClass{
     function __construct($name) {
         $this->name= $name;
         $this->emon();
-    
     }
     function emon(){
         echo "NO entry Emon. {$this->name}\n";
