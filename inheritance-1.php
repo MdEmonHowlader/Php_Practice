@@ -18,10 +18,3 @@ class Emon extends Constructor{
         echo "Hi I am {$this->name}\n";
     }
 }
-
-$info= new Emon('Emon ', 'CSE');
-$info->mass();
-$info->intor();
-
-
-?>
