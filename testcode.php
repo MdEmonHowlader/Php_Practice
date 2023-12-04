@@ -1,10 +1,8 @@
-<?php 
-session_start();
+<?php
+$date1=new DateTime("10th May 2002");
+$date2=new DateTime("13th May 2003");
 
-$username = $_SESSION['username']='Emon';
-$userId = $_SESSION['userId']='1223';
+$diff=$date1->diff($date2);
+echo $diff->y;
 
-echo "Username: . $username\n";
-echo "UserId: . $userId";
-
-?>
+?>  

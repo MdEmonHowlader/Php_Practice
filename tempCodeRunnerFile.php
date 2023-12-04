@@ -1,4 +1,2 @@
 <?php
-class ChiildClass extends PrentClass{
-    
-}
+echo date_timestamp_get($mydate);
