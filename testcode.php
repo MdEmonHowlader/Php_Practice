@@ -1,6 +1,4 @@
 <?php
-$file=fopen("./data.text", "w+");
-fwrite($file, "Hi Emon");
-fclose($file);
+$file=fopen("./data.text", "r");
 
-?>  
+    ?>
