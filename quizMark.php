@@ -6,5 +6,4 @@ $quiz1=$input[2]-$quiz3;
 $quiz2=$input[0]-$quiz1;
 echo "$quiz1 $quiz2 $quiz3\n";
 
-
 ?>
