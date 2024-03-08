@@ -1,17 +1,10 @@
 <?php
-function linearSearch($list, $data){
-    $count=count($list);
-    for($i=0; $i<$count; $i++){
-        if($data==$list[$i])
-        return $i;
+function sum(...$numbers){
+    $total=0;
+    foreach($numbers as $number){
+        $total +=$number;
     }
-    return-1;
+    return $total;
 }
-$list =array(12,3,5,67,9);
-$res=linearSearch($list, 9);
-if($res!= -1){
-    echo "Found";
-}else{
-    echo "Not Found";
-}
+echo "Total: ". sum(2, 4,5,6);
 ?>
