@@ -31,3 +31,11 @@ $sampel1=[
 ];
 //print_r($sampel1);
 echo $sampel1[2][3];
+
+$care=array(
+    "Volvo", 
+    "BMW", 
+    "Toyota"
+);
+$care[1]="Emon";
+print_r($care);
