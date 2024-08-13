@@ -1,10 +1,13 @@
 <?php
-function FormatName($firstName, $lastName){
-    return $lastName. ", " . $firstName;
-}
-$firstName = trim(fgets(STDIN));
-$lastName = trim(fgets(STDIN));
 
-echo FormatName($firstName, $lastName);
+// $firstName = trim(fgets(STDIN));
+// $lastName = trim(fgets(STDIN));
+// $output = $lastName . ", " . $firstName;
+
+// echo $output . "\n";
+
+list($firstName, $lastName) = explode(" ", trim(fgets(STDIN)));
+
+echo $lastName . ", " . $firstName . "\n";
 
 ?>
