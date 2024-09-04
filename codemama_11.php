@@ -1,12 +1,8 @@
 <?php
-$num1=(float)fgets(STDIN);
-$num2=(float)fgets(STDIN);
-$num3=(float)fgets(STDIN);
-$max=$num1;
-if($num2>$max){
-    $max=$num2;
-}if($num3>$max){
-    $max=$num3;
-}
+$num1=(int)fgets( STDIN);
+$num2=(int)fgets( STDIN);
+$num3=(int)fgets( STDIN);
+$max=max($num1,$num2,$num3);
 echo $max;
+
 ?>
